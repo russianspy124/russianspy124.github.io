@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        table {
+            /*            border-collapse: collapse*/
+        }
+
+        td {
+            width: 100px;
+        }
+
+        tr:first-child {
+            background-color: aqua;
+            text-align: center;
+
+        }
+
+        tr:nth-child(2n) {
+            background-color: aqua
+        }
+    </style>
+</head>
+
+<body>
+    <!--table>tr*2>td*2-->
+    <table border>
+       <caption>Phone Book</caption>
+        <tr>
+            <td>Name</td>
+            <td>Phone</td>
+        </tr>
+
+        <tr>
+            <td rowspan='2'>David</td>
+            <td>111-111-1111</td>
+        </tr>
+        <tr>
+            <td>519-123-456</td>
+        </tr>
+        <tr>
+            <td>Justin</td>
+            <td>666-111-1111</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>911-111-1111</td>
+        </tr>
+        <tr>
+            <td>Jeff</td>
+            <td>222-222-2222</td>
+        </tr>
+    </table>
+</body></html>

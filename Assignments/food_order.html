@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Order</title>
+    <style>
+        img {
+            width: 14%;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Your Information</legend>
+        <select name="Gender" id="">
+            <option value="">Male</option>
+            <option value="">Female</option>
+            <option value="">Other</option>
+        </select>
+        <br>
+        <i><small>Name:</small></i>
+        <input name='First Name' type="text" placeholder='Please enter your full name' required>
+        <br>
+        <i><small>Email:</small></i>
+        <input name='Email' type="text" placeholder='Please enter your email' required>
+        <br>
+        <i><small>Phone</small></i>
+        <input name='First Name' type="text" placeholder='Please enter your phone' required>
+        <br>
+        <i><small>City:</small></i>
+        <select name="City" id="">
+            <option value="">Toronto</option>
+            <option value="">London</option>
+            <option value="">Ottawa</option>
+            <option value="">Windsor</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Order Imformation</legend>
+        <input type="radio" value='Pizza'>
+        <lable for="">Pizza</lable>
+
+        <input type="radio" value='Burger'>
+        <lable for="">Burger</lable>
+
+        <input type="radio" value='Hot Dog'>
+        <lable for="">Hot Dog</lable>
+        <br>
+        <img src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?cs=srgb&dl=pepperoni-pizza-803290.jpg&fm=jpg" alt="">
+        <img src="https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?cs=srgb&dl=close-up-photo-of-a-cheese-burger-1633578.jpg&fm=jpg" alt="">
+        <img src="https://images.pexels.com/photos/3052248/pexels-photo-3052248.jpeg?cs=srgb&dl=fried-fries-with-burger-on-ceramic-plate-3052248.jpg&fm=jpg" alt="">
+        <br>
+        <i><small>Date:</small></i><input type="text" placeholder="yyyy-mm-dd">
+        <br>
+        <i><small>Time:</small></i><input type="text" placeholder="--:-- --">
+        <br>
+        <select name="Payment type" id="">
+            <option value="">Master card</option>
+            <option value="">Visa card</option>
+            <option value="">Paypal</option>
+        </select>
+    </fieldset>
+    <input type="text" placeholder="Please leave your comments here" width='200px' height="400px">
+    <br>
+    <input type="submit" value="Sign Up">
+    <input type="submit" value="Reset">
+</body></html>
