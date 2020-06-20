@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px
+        }
+
+        div {
+            width: 99%;
+            height: 50px;
+            background-color: blue;
+            margin-bottom: 10px;
+        }
+
+        @media all and (min-width:992px) {
+            div {
+                background-color: #ff0000;
+                display: inline-block;
+                width: 45%;
+            }
+        }
+
+        @media all and (min-width:1048) {
+            div {
+                background-color: #eb00ff;
+                display: inline-block;
+                width: 45%;
+            }
+
+        }
+
+        @media print {
+            div {
+                background-color: none;
+                border: solid;
+            }
+
+            div:first-child {
+                border: none;
+                background-color: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body></html>

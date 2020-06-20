@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            border: solid blue;
+            width: 200px;
+            height: 200px;
+
+        }
+
+        p {
+            border: solid red;
+            /*            width: 200px;*/
+            /*            height: 200px;*/
+            display: inline-block
+        }
+
+        #inline {
+            border: solid green;
+            display: inline;
+            font-size: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--   Block-->
+
+    <ul>
+        <li>Width across page</li>
+        <li>Height is 0</li>
+        <li>Can set width and height</li>
+        <li>Can't be put in a line</li>
+    </ul>
+    <div></div>
+    <!--    Inline-Block-->
+
+    <ul>
+        <li>Width is 0</li>
+        <li>Height is 0</li>
+        <li>Can set width and height</li>
+        <li>They can be put in a line</li>
+    </ul>
+    <p></p>
+    <!--    Inline-->
+    <ul>
+        <li>Has no width by default</li>
+        <li>Has little height</li>
+        <li>Can be put in a line</li>
+        <li>Cannot set width or height</li>
+        <li>Width is set by contents</li>
+        <li>Height depends on font size</li>
+    </ul>
+    <div id="inline"></div>
+    <p></p>
+</body></html>

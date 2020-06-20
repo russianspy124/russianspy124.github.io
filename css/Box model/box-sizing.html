@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            width: 300px;
+            height: 200px;
+        }
+
+        #container {
+            width: 600px;
+            height: 400px;
+            border: solid;
+            /*            box-sizing: border-box;*/
+        }
+
+        .left {
+            background-color: blue;
+            display: inline-block;
+            border: solid 10px;
+            padding: 90px;
+            box-sizing: border-box;
+
+        }
+
+        .right {
+            background-color: purple;
+            display: inline-block;
+            margin-left: -4px;
+            border: solid 10px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+</body></html>

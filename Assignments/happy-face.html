@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            width: 200px;
+            height: 200px;
+        }
+
+        #container {
+            width: 200px;
+            height: 200px;
+            /*                        border: solid;*/
+            background: lime;
+
+        }
+
+        #face {
+            padding: 10px;
+            width: 180px;
+            height: 180px;
+            /*            border: solid;*/
+            border-radius: 50%;
+            background: yellow;
+        }
+
+        #eyes {
+            width: 40px;
+            height: 55px;
+            /*            border: solid;*/
+            border-radius: 50%;
+            margin-left: 28px;
+            margin-top: 21px;
+            display: inline-block;
+            background: white;
+        }
+
+        #pupils {
+            width: 20px;
+            height: 25px;
+            /*            border: solid;*/
+            background: black;
+            border-radius: 50%;
+            margin-top: 6px;
+            margin-left: 5px;
+        }
+
+        #smile {
+            width: 88px;
+            height: 31px;
+            border: solid 10px;
+            margin-top: 15px;
+            margin-left: 34px;
+            display: block;
+            border-radius: 50%;
+            border-top-color: transparent;
+            /*            border-right-color: transparent;*/
+            /*            border-left-color: transparent;*/
+            border-bottom-left-radius: 65px 43px;
+            border-bottom-right-radius: 65px 43px;
+            position: fixed;
+        }
+
+        #corner1 {
+            margin-left: -21px;
+            width: 15px;
+            border: solid 5px;
+            margin-top: 5px;
+            display: inline-block;
+            border-radius: 37%;
+            transform: rotate(-45deg);
+            position: absolute;
+
+        }
+
+        #corner2 {
+            width: 15px;
+            border: solid 5px;
+            margin-top: 5px;
+            display: inline-block;
+            border-radius: 37%;
+            margin-left: 84px;
+            margin-bottom: 0px;
+            transform: rotate(45deg);
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="smily">
+        <div id="container">
+            <div id="face">
+                <div id="eyes">
+                    <div id="pupils"></div>
+                </div>
+                <div id="eyes">
+                    <div id="pupils"></div>
+                </div>
+                <div id="smile">
+                    <div id="corner1"></div>
+                    <div id="corner2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body></html>
